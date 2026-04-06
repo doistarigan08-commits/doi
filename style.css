@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  font-family: Arial;
+}
+
+/* CARD */
+.container {
+  width: 320px;
+  background: rgba(255,255,255,0.1); /* transparan */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #ff4ecd,
+              0 0 10px #ad6b89,
+              0 0 15px #200017;
+border: 1px solid #ffff;
+  backdrop-filter: blur(15px);
+}
+
+/* HEADER */
+.header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ad6b89, #ff4ecd, #200017);
+}
+
+/* FORM */
+.form {
+  padding: 12px;
+}
+
+/* INPUT */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 25px;
+  border: 1px solid #ad6b89;
+  box-shadow : 0px 0px 10px #ad6b89;
+  background: transparent;
+  outline: none;
+  color: #c2c2c2;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px;
+  border: 1px solid #ff4ecd;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ad6b89, #ff4ecd, #200017);
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px
+}
+
+/* INPUT */
+input1 {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 25px;
+  border: 1px solid #ad6b89;
+  outline: none;
+}
+
+/*text */
+.text {
+  padding: 3px;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 12px ;
+  color: #ad6b89;
+   font-weight: bold;
+}
